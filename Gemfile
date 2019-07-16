@@ -5,9 +5,9 @@ group :heroku do
   gem 'rails_12factor'
 end
 
-gem 'rails', '~> 3.2.18'
+gem 'rails', '~> 4.0.3'
 
-gem 'authlogic'
+gem 'authlogic', '>= 3.4.2'
 gem 'omniauth'
 gem 'omniauth-facebook'
 
@@ -32,7 +32,7 @@ gem 'fog'
 
 # -- Photo resizing
 # MiniMagick
-gem "mini_magick"
+gem "mini_magick", ">= 4.9.4"
 
 # ImageMagick:
 #gem "rmagick", :require => 'RMagick'
