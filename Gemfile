@@ -1,15 +1,15 @@
 source 'https://rubygems.org'
 
 group :heroku do
-  gem 'unicorn'
+  gem 'unicorn', '>= 4.8.3'
   gem 'rails_12factor'
 end
 
-gem 'rails', '~> 3.2.18'
+gem 'rails', '~> 5.0.0'
 
 gem 'authlogic'
-gem 'omniauth'
-gem 'omniauth-facebook'
+gem 'omniauth', '>= 1.3.1'
+gem 'omniauth-facebook', '>= 1.6.0'
 
 gem 'mime-types', :require => 'mime/types'
 gem 'carrierwave', '~> 0.6.1'
