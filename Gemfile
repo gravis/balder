@@ -5,14 +5,14 @@ group :heroku do
   gem 'rails_12factor'
 end
 
-gem 'rails', '~> 3.2.18'
+gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 
-gem 'authlogic'
+gem 'authlogic', '>= 3.4.2'
 gem 'omniauth'
 gem 'omniauth-facebook'
 
 gem 'mime-types', :require => 'mime/types'
-gem 'carrierwave', '~> 0.6.1'
+gem 'carrierwave', '~> 0.6.2'
 
 # -- Database
 # SQLite:
