@@ -8,7 +8,7 @@ end
 gem 'rails', '~> 3.2.18'
 
 gem 'authlogic'
-gem 'omniauth'
+gem 'omniauth', '>= 2.1.0'
 gem 'omniauth-facebook'
 
 gem 'mime-types', :require => 'mime/types'
