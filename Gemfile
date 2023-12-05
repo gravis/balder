@@ -12,7 +12,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 
 gem 'mime-types', :require => 'mime/types'
-gem 'carrierwave', '~> 0.6.1'
+gem 'carrierwave', '~> 2.2.5'
 
 # -- Database
 # SQLite:
