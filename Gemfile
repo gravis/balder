@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
 group :heroku do
-  gem 'unicorn'
+  gem 'unicorn', '>= 5.1.0'
   gem 'rails_12factor'
 end
 
-gem 'rails', '~> 3.2.18'
+gem 'rails', '~> 4.0.0'
 
 gem 'authlogic'
 gem 'omniauth'
